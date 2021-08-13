@@ -1,0 +1,98 @@
+/* Global */
+body{
+    background-color:#FFF;
+    color:#333;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin:0;
+    padding:0;
+}
+
+/* Header */
+header {
+    background-color:#FFFFFF;
+    color:#fff;
+    padding-top:40px;
+    padding-left:50px;
+    padding-bottom:1px;
+    width:100%;
+    font: normal 24px Brush Script MT;
+
+}
+
+.highlight{
+    color:#8B0000;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+}
+
+/* Login and Sign Up */
+.box{
+    background-color:#FFF;
+    margin:50px;
+    padding:20px;
+}
+/* log in box*/
+.box h3 {
+    font-size: 25px;
+    margin-top:0;
+    margin-right: 150px;
+    margin-bottom:10px;
+ 
+}
+/*Sign Up Box*/
+.box h4 {
+    font-size: 25px;
+    margin-top:0;
+    margin-bottom:10px;
+    margin-right: 100px;
+    width: 70%;
+ 
+}
+
+ .g-signin2{
+	width: 110%;
+	background-color: #008CBA;
+}
+.box .label-text{
+	 position: relative;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    font-size:10px;
+    width: 150%;
+}
+.box .button{
+    margin-top:12px;
+    width:110%;
+    border:2px;
+    background-color:#8B0000;
+    color: #FFF;
+    border-style:solid;
+    border-radius:8px;
+}
+
+.box .button2 {background-color: #008CBA;}
+.box .button:hover {
+    background-color: rgb(226, 181, 0);
+    border-color: rgb(226, 181, 0);
+    cursor: pointer;
+}
+/*Input for the log in and sign up boxes*/
+.box input{
+    margin:5px;
+    padding-bottom:3px;
+    border-bottom:2px;
+    border-top:2px;
+    border-right:2px;
+    border-left:2px;
+    border-color: rgb(173, 173, 173);
+    border-style:solid;
+    width: 110%;
+}
+
+
+
+
